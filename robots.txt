@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://delfinia.win/sitemap.xml
