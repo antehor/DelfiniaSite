@@ -1,3 +1,5 @@
 # Delfinia
 
-Личный сайт Minecraft Java сервера Delfinia.
+Личный проект.
+
+Все права защищены.

@@ -143,11 +143,19 @@ h3 { margin: 0; }
 .feature-grid { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 14px; }
 .feature-card { overflow: hidden; border-radius: 20px; background: linear-gradient(180deg, rgba(8,31,58,.76), rgba(4,16,31,.78)); transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
 .feature-preview { width: 100%; aspect-ratio: 5 / 3; object-fit: cover; border-bottom: 1px solid var(--line); }
-.feature-card__body { padding: 16px; }
+.feature-card__body { padding: 14px; }
 .feature-tag { display: inline-flex; margin-bottom: 10px; padding: 5px 8px; border-radius: 999px; color: #02101f; background: var(--cyan); font-size: .68rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
-.feature-card h2 { font-size: 1rem; line-height: 1.2; letter-spacing: -.025em; }
-.feature-card p { margin: 10px 0 0; font-size: .9rem; line-height: 1.55; color: var(--muted-strong); }
-.feature-command { display: block; margin-top: 10px; font-size: .82rem; color: var(--muted); }
+.feature-card h2 { font-size: .96rem; line-height: 1.2; letter-spacing: -.025em; }
+.feature-card p { margin: 9px 0 0; font-size: .86rem; line-height: 1.5; color: var(--muted-strong); }
+.feature-command { display: block; margin-top: 10px; font-size: .8rem; color: var(--muted); }
+.feature-card a:not(.btn), .download-card a:not(.btn), .rules-document a {
+  color: var(--cyan); text-decoration: underline; text-decoration-color: rgba(110,238,255,.45); text-underline-offset: 3px;
+}
+.feature-list { margin: 9px 0 0; padding-left: 18px; color: var(--muted-strong); font-size: .84rem; line-height: 1.48; }
+.feature-list li + li { margin-top: 5px; }
+.feature-card--sponsor { border-color: rgba(255,221,116,.34); background: linear-gradient(180deg, rgba(36,31,12,.74), rgba(4,16,31,.82)); }
+.feature-card--sponsor .feature-tag { background: linear-gradient(135deg, #ffe083, var(--cyan)); }
+
 
 .download-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
 .download-card { padding: 28px; background: linear-gradient(180deg, rgba(8,31,58,.76), rgba(4,16,31,.78)); transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
